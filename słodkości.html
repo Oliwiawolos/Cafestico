@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="slodkosci.css">
+		<title>CAFÈSTICO</title>
+		<link rel="shortcut icon" href="favicon-16x16.png"> 
+	</head>
+	
+	<body>
+		<main class="pasek">
+			<img src="./images/logo.png" width="100">
+			<h1><a href="cafestico.html" class="logo-link">CAFÉSTICO</a></h1>
+			
+			<nav>
+				<ul class="menu">
+					<li><a href="#">Menu Stałe</a>
+						<ul>
+							<li><a href="kawa.html">Kawy</a></li>
+							<li><a href="herbata.html">Herbaty</a></li>
+							<li><a href="słodkości.html">Słodkości</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Menu sezonowe</a>
+						<ul>
+							<li><a href="Wiosna.html">Wiosna</a></li>
+							<li><a href="Lato.html">Lato</a></li>
+							<li><a href="Jesien.html">Jesień</a></li>
+							<li><a href="Zima.html">Zima</a></li>
+						</ul>
+					</li>
+					<li><a href="">O Nas</a>
+						<ul>
+							<li><a href="#footer">Kontakt</a></li>
+							<li><a href="#footer">Lokalizacja</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</main>
+<main class="reszta">
+<section>
+				  
+	<div class="opis">
+		  <h2>Menu Stałe</h2>
+		  <nav class="seasonal-menu">
+			<ul>
+			  <li><a href="kawa.html" class="active">Kawy</a></li>
+			  <li><a href="herbata.html">Herbaty</a></li>
+			  <li><a href="słodkości.html">Słodkości</a></li>
+		
+			</ul>
+		  </nav>
+		</div>
+		  
+		  
+		  
+		<div class="zdjęcia">
+				<div class="responsive">
+				  <div class="gallery">
+					  <a target="_blank" >
+					  <img src="./images/makaroniki.png" alt="makaroniki">
+					</a>
+					<div class="desc">Makaroniki</div>
+				  </div>
+				</div>
+
+
+				<div class="responsive">
+				  <div class="gallery">
+					  <a target="_blank" >
+					  <img src="./images/szarlotka.png" alt="szarlotka" >
+					</a>
+					<div class="desc">Szarlotka</div>
+				  </div>
+				</div>
+
+				<div class="responsive">
+				  <div class="gallery">
+					  <a target="_blank" >
+					  <img src="./images/brownie.png" alt="brownie" >
+					</a>
+					<div class="desc">Brownie</div>
+				  </div>
+				</div>
+
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" >
+					  <img src="./images/croissant.png" alt="croissant">
+					</a>
+					<div class="desc">Croissant</div>
+				  </div>
+				</div>
+				
+				<div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" >
+					  <img src="./images/sernik.jpg" alt="sernik">
+					</a>
+					<div class="desc">Sernik z białą czekoladą</div>
+				  </div>
+				</div>
+			  <div class="responsive">
+				  <div class="gallery">
+					<a target="_blank" >
+					  <img src="./images/mufinki.png" alt="mufinki">
+					</a>
+					<div class="desc">Mufinki</div>
+				  </div>
+				</div>
+			</div>
+  
+
+</section>
+		</main>
+		<footer id="footer">
+			<h2>&copy CAFÈSTICO</h2>
+			
+			<div>
+				<h3>GODZINY OTWARCIA: </h3>
+				<p>Poniedziałek: 10-16</p>
+				<p>Wtorek: 10-16</p>
+				<p>Środa: 10-16</p>
+				<p>Czwartek: 10-16</p>
+				<p>Piątek: 10-16</p>
+				<p>Sobota: 10-16</p>
+				<p>Niedziela:10-16</p>
+			</div>
+			<div>			
+				<h3>KONTAKT</h3>
+				<a><img src="./images/e-mail.png" width="40px">
+				cafestico@gmail.com<br>
+				<img src="./images/telefon.png" width="40px">
+				234-545-667<br>
+				<img src="./images/pinezka.png" width= "40px">
+				ul. Kawiarniana 3 Kraków</a>
+			</div>
+		</footer>
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+   
+    const stopkaElement = document.querySelector('.stopka');
+    
+    if (stopkaElement) {
+        stopkaElement.addEventListener('click', function() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+        });
+		}
+	});
+	</script>
+	</body>
+</html>
